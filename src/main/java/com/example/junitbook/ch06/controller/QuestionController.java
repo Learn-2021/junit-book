@@ -48,7 +48,7 @@ public class QuestionController {
         return persist(new BooleanQuestion(text));
     }
 
-    void setClock(Clock clock) {
+    public void setClock(Clock clock) {
         this.clock = clock;
     }
     // ...
